@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 250" width="100%" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="wave-1788837842083" gradientUnits="userSpaceOnUse" x1="0" y1="250" x2="0" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+  <path d="M -6.67 63 C 76.67 63 76.67 58 160 58 C 243.33 58 243.33 85 326.67 85 C 410 85 410 57 493.33 57 C 576.67 57 576.67 114 660 114 C 743.33 114 743.33 61 826.67 61 C 910 61 910 125 993.33 125 C 1076.67 125 1076.67 59 1160 59 C 1243.33 59 1243.33 71 1326.67 71 C 1410 71 1410 70 1493.33 70 C 1576.67 70 1576.67 104 1660 104 C 1743.33 104 1743.33 64 1826.67 64 C 1910 64 1910 73 1993.33 73 C 2076.67 73 2076.67 62 2160 62 L 2000 250 L 0 250 Z" fill="url(#wave-1788837842083)"></path>
+</svg>
