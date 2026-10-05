@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* --------------------------------------------------------header------------------------------------------------------------- */
+
+.hero--simple {
+    height: auto;
+
+    .hero-cont-wrap {
+        height: auto;
+        background-image: none;
+    }
+}
+
+
+
+
+
+/* -----------------------------------------------詳細画面main-------------------------------------------------------- */
+
+
+
+
+
+.news-detail-page {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    /* 左右中央に寄せる */
+    padding: 6rem 5.3% 8rem;
+
+    #news-detail-thumbnail {
+        display: block;
+        width: 100%;
+        height: auto;
+        /* 画像を切らずに全体を見せる */
+        background: #222;
+        /* 読み込み前の下地 */
+        margin-bottom: 2.4rem;
+    }
+
+    #news-detail-date {
+        font-size: 1.3rem;
+        letter-spacing: 0.1em;
+        opacity: 0.7;
+        margin-bottom: 1rem;
+    }
+
+    #news-detail-title {
+        font-size: 2.2rem;
+        line-height: 1.6;
+        padding-bottom: 2rem;
+        margin-bottom: 3rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        /* タイトルと本文の区切り線 */
+
+        @media (min-width: 768px) {
+            font-size: 2.8rem;
+        }
+    }
+
+    #news-detail-body {
+        font-size: 1.5rem;
+        line-height: 2;
+        white-space: pre-line;
+        /* JS側の \n を改行として表示する */
+
+        @media (min-width: 768px) {
+            font-size: 1.6rem;
+        }
+    }
+
+
+    .news-back {
+        width: fit-content;
+        margin-inline: auto 0;
+        padding: 2rem 0 0 0;
+        font-size: 1.5rem;
+
+        display: block;
+
+    }
+}
+
+
+
+
+
+
+/* ------------------------------------------------------一覧画面main------------------------------------------------------------ */
+
+
+
+
+
+body {
+    background-color: var(--color-base-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------footer--------------------------------------------------------------- */
+
+
+
+footer {
+    /* height: 100dvh; */
+}

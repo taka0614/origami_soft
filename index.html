@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+
+    <!-- グーグルフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&family=Zen+Old+Mincho&display=swap"
+        rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet"> -->
+
+    <title>Origami soft | TOP</title>
+</head>
+
+<body>
+    <header class="hero" id="hero-top">
+
+        <video class="hero-video" src="imgs/movie/milk_ribbon.mp4" autoplay muted playsinline></video>
+        <button class="skip-btn" type="button" aria-label="スキップ">SKIP</button>
+
+        <div class="hero-cont-wrap">
+            <h1><img src="imgs/svg/full_logo_color.svg" alt="オリガミソフトのロゴ"></h1>
+            <h2>北海道を、美しく折りたたむ食べるアート、誕生。</h2>
+
+
+
+
+            <button id="js-burger" class="header__buruger-container" aria-label="メニューを開閉する">
+                <!-- <img src="imgs/svg/rectangle_hamburger.svg" alt=""> -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+
+
+            <div id="mask">
+                <div class="in-burger-logo"><img src="imgs/svg/full_logo_color.svg" alt=""></div>
+                <nav>
+                    <ul class="l-nav">
+                        <li><a href="#hero-top">トップへ戻る</a></li>
+                        <li><a href="#concept-top">コンセプト</a></li>
+                        <li><a href="#gallery-top">メニュー</a></li>
+                        <li><a href="#access-top">新着情報</a></li>
+                        <li><a href="#index-footer">アクセス</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+
+
+            <div class="header__sns-links-wrap">
+                <div class="line-link">
+                    <a href="https://line.me/R/ti/p/@230yhtom?oat_content=url&ts=09291141" target="_blank"
+                        rel="noopener noreferrer"><img src="imgs/svg/line.svg" alt=""></a>
+                </div>
+                <div class="inst-link">
+                    <a href="https://www.instagram.com/origami.soft/" target="_blank" rel="noopener noreferrer"><img
+                            src="imgs/svg/instagram_fill.svg" alt=""></a>
+                </div>
+            </div>
+
+            <a class="top-return-btn" href="#">
+                <p>TOPへ</p>
+                <img class="default" src="72ppi/milk_clown_side.png" alt="">
+                <img class="hover" src="72ppi/milk_clown_top.png" alt="">
+            </a>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="catchcopy">
+            <p class="store-name">ORIGAMI soft</p>
+            <p class="copy-text">Art of Milk.</p>
+        </div>
+
+        <section class="main__concept-wrap" id="concept-top">
+
+            <h2 class="concept-title-h2">Concept</h2>
+
+            <div class="concept-contents">
+                <div class="concept-text-wrap">
+                    <h2><span>01.</span>ソフトクリームの折り目は</h2>
+                    <p>一枚の紙を丁寧に折り重ねるように、素材選びから仕上げまで、一つひとつの工程を大切に。<br>重なり合う折り目は、私たちが重ねてきたひと手間の形。</p>
+                </div>
+
+                <div class="concept-grade-wrap">
+                    <img src="imgs/hitokuti02.webp" alt="">
+                </div>
+            </div>
+
+
+
+            <div class="concept-contents reverse">
+                <div class="concept-text-wrap">
+                    <h2><span>02.</span>濃厚ですっきりした後味</h2>
+                    <p>北海道産牛乳を100％使い、濃厚なコクとすっきりとした後味に。<br>なめらかな口どけとともに、北海道のミルク本来の味わいをお楽しみください。</p>
+                </div>
+
+                <div class="concept-grade-wrap"><img src="imgs/milk_clown02 .webp" alt=""></div>
+            </div>
+
+
+
+            <div class="concept-contents">
+                <div class="concept-text-wrap">
+                    <h2><span>03.</span>Art of Milk</h2>
+                    <p>食べるアートとして、真っ白なミルクの美しさを引き立てる黒。<br>白と黒のコントラストが、折り重なるフォルムをより印象的に際立たせます。</p>
+                </div>
+
+                <div class="concept-grade-wrap"><img src="imgs/origami_sht_square.webp" alt=""></div>
+            </div>
+
+        </section>
+
+
+        <!-- ラベンダー画像の親をどうにかしなければどこまでも画像がついてくる、パララックスエリアを親に加えるとギャラリーで覆いかぶさる動きに不備が出る、ひとまずポジションレラティブで解決している
+が根本的に直すべき -->
+        <!-- <div class="parallax-area"> -->
+        <div class="concept-last-contents-wrap">
+            <p>美しいフォルムの<br>ひとおり、ひとおり<br>丁寧に思いを重ねています</p>
+            <p>そのひと口が、笑顔になれる時間となりますように。</p>
+
+            <!-- <div class="concept-deco-wrap">
+                <img src="72ppi/origami.png" alt="">
+                <img src="72ppi/origami02.png" alt="">
+                <img src="72ppi/origami.png" alt="">
+            </div> -->
+        </div>
+
+
+        <div class="lavender-wrap">
+            <picture>
+                <source media="(max-width: 450px)" srcset="imgs/tatenaga_lavender_soft.webp">
+                <img src="imgs/lavender_soft02.webp" alt="">
+            </picture>
+        </div>
+
+
+
+
+        <section class="main__gallery-wrap" id="gallery-top">
+
+            <!-- <div class="gallery-wave-top"></div> -->
+
+
+
+            <div class="gallery-ticker-top">
+
+                <!-- はみ出てる上の文字 -->
+                <div class="gallery-catchcopy02"><img src="imgs/svg/shape_of_milk.svg" alt=""></div>
+
+                <!-- ティッカーの中身 -->
+                <div class="ticker-text-wrap">
+                    <p class="gallery-ticker-text">ORIGAMI soft ORIGAMI soft ORIGAMI soft ORIGAMI soft ORIGAMI soft
+                        ORIGAMI
+                        soft ORIGAMI soft ORIGAMI soft ORIGAMI soft ORIGAMI soft ORIGAMI soft ORIGAMI soft ORIGAMI soft
+                        ORIGAMI
+                    </p>
+                    <p class="gallery-ticker-text">ORIGAMI soft ORIGAMI soft ORIGAMI soft ORIGAMI soft ORIGAMI soft
+                        ORIGAMI
+                        soft ORIGAMI soft ORIGAMI soft ORIGAMI soft ORIGAMI soft ORIGAMI soft ORIGAMI soft ORIGAMI soft
+                        ORIGAMI
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="gallery-cont-wrap">
+                <div class="catchcopy">
+                    <p class="store-name">ORIGAMI soft</p>
+                    <p class="copy-text">Art of Milk.</p>
+                </div>
+
+                <div class="menu-wrap">
+
+                    <!-- <div class="menu-top-wave"><img src="imgs/svg/wave_menu.svg" alt=""></div> -->
+
+                    <div class="menu-cont-wrap">
+
+                        <h2 class="menu-title-h2">Menu</h2>
+
+                        <div class="menu-menu-wrap">
+
+                            <div class="menu-img-wrap">
+                                <img src="imgs/vanilla_menu_square.webp" alt="">
+                            </div>
+
+                            <div class="menu-text-wrap">
+                                <h3>バニラ</h3>
+                                <p><span>600円</span></p>
+                                <p>北海道産のミルク100％使用、やさしくなめらかな味わい。</p>
+
+                            </div>
+                        </div>
+
+                        <div class="menu-menu-wrap reverse">
+
+                            <div class="menu-img-wrap">
+                                <img src="imgs/choco_menu02_square.webp" alt="">
+                            </div>
+
+                            <div class="menu-text-wrap">
+                                <h3>チョコ</h3>
+                                <p><span>600円</span></p>
+                                <p>カカオの香りにミルクのコクが重なる、上品な甘さ。</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="menu-menu-wrap">
+
+                            <div class="menu-img-wrap">
+                                <img src="imgs/marble_menu_square.webp" alt="">
+                            </div>
+
+                            <div class="menu-text-wrap">
+                                <h3>ミックス</h3>
+                                <p><span>600円</span></p>
+                                <p>2つの味わいがおりなす、贅沢なハーモニー。</p>
+                            </div>
+
+                        </div>
+
+
+                        <!-- <div class="menu-bottom-wave"><img src="imgs/svg/wave_menu_bottom.svg" alt=""></div> -->
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+        <!-- </div> -->
+
+
+
+        <section class="news" id="access-top">
+
+            <div class="news__top-wave-line"><img src="imgs/svg/wave_top.svg" alt=""></div>
+
+            <div class="news__cont-wrap">
+                <h2>新着情報</h2>
+
+                <div id="news-top"></div>
+
+                <a href="news.html" class="go-to-info-list">情報一覧へ</a>
+            </div>
+
+            <div class="news__deco-wrap">
+                <!-- 背景で写真がつけてある -->
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+
+    <footer id="index-footer">
+        <div class="footer__cont-parent">
+
+            <div class="footer__cont-wrap">
+
+                <div class="f-cont__address">
+
+                    <div class="address__logo-wrap">
+                        <img src="imgs/svg/full_logo_color.svg" alt="">
+                    </div>
+
+                    <div class="address__txt-wrap">
+                        <h2>ORIGAMI soft</h2>
+                        <p>〒060-0062</p>
+                        <p>北海道札幌市中央区南２条西５丁目６ 札幌プラザ2・5ビル 1F 狸小路横丁</p>
+                    </div>
+
+                </div>
+
+                <div class="footer__map-wrap">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2061.39058011597!2d141.34900339318588!3d43.05728260259744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b297e36b0b535%3A0x76cda0685844a711!2z44Kq44Oq44Ks44Of44K944OV44OI!5e0!3m2!1sja!2sjp!4v1788836231392!5m2!1sja!2sjp"
+                        width="1400" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    <p>「マップで開く」から詳しい地図へ</p>
+                </div>
+                <h2 class="store-info-h2">店舗情報</h2>
+                <dl class="footer__access">
+                    <dt>営業時間</dt>
+                    <dd>12:00～21:00</dd>
+                    <dt>定休日</dt>
+                    <dd>月曜日</dd>
+                    <dt>電話番号</dt>
+                    <dd>011-12345678</dd>
+                </dl>
+            </div>
+
+
+            <div class="footer__cont-wrap02">
+                <div class="wrap02__text-wrap">
+
+                    <h2 class="wrap02-top-h2">各種リンク・お問い合わせ</h2>
+
+                    <div class="nav-sns-wrap">
+                        <nav class="wrap02__nav" aria-label="フッターナビゲーション">
+                            <h2>メニュー</h2>
+                            <ul class="wrap02__nav-list">
+                                <li><a href="#hero-top">トップ</a></li>
+                                <li><a href="#concept-top">コンセプト</a></li>
+                                <li><a href="#gallery-top">ギャラリー</a></li>
+                                <li><a href="#access-top">お知らせ</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="wrap02__sns">
+                            <h2>SNS</h2>
+                            <ul class="wrap02__sns-list">
+                                <li><a href="https://line.me/R/ti/p/@230yhtom?oat_content=url&ts=09291141"
+                                        target="_blank" rel="noopener noreferrer">LINE</a></li>
+                                <li><a href="https://www.instagram.com/origami.soft/" target="_blank"
+                                        rel="noopener noreferrer">Instagram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="wrap02__access">
+                        <h2>アクセス</h2>
+                        <p>地下鉄「大通駅」「すすきの駅」より徒歩5分程度、数店舗の飲食店が集まる「狸小路横丁」の入り口右手です。</p>
+                    </div>
+
+                    <div class="wrap02__contact">
+                        <!-- href は、お問い合わせフォームのページ / mailto: / LINEのURL など、使う手段に合わせて変える -->
+                        <a class="wrap02__contact-btn" href="#">お問い合わせ</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="wrap02__f-ticker">
+                    <img src="imgs/svg/footer_ticker.svg" alt="">
+                    <img src="imgs/svg/footer_ticker.svg" alt="">
+                </div> -->
+        </div>
+
+        </div>
+
+
+        <div class="footer__copyright-wrap">
+            <p><small>&copy;2026 Origami soft all rights reserved.</small></p>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/news.js"></script>
+    <script>
+        renderNewsCards("news-top", 3); // "news-top"の場所に、新しい順で3件表示
+    </script>
+</body>
+
+</html>

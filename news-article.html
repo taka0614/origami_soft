@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/news-style.css">
+
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+
+    <!-- グーグルフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&family=Zen+Old+Mincho&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="hero is-loaded hero--simple">
+
+        <div class="hero-cont-wrap">
+            <h1><img src="imgs/svg/full_logo_color.svg" alt="オリガミソフトのロゴ"></h1>
+
+
+            <button id="js-burger" class="header__buruger-container" aria-label="メニューを開閉する">
+                <!-- <img src="imgs/svg/rectangle_hamburger.svg" alt=""> -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+
+
+            <div id="mask">
+                <div class="in-burger-logo"><img src="imgs/svg/full_logo_color.svg" alt=""></div>
+                <nav>
+                    <ul class="l-nav">
+                        <li><a href="index.html#hero-top">トップへ戻る</a></li>
+                        <li><a href="index.html#concept-top">コンセプト</a></li>
+                        <li><a href="index.html#gallery-top">ギャラリー</a></li>
+                        <li><a href="news.html#news-main">情報一覧</a></li>
+                        <li><a href="#news-a-footer">アクセス</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+
+            <div class="header__sns-links-wrap">
+                <div class="line-link">
+                    <a href="https://line.me/R/ti/p/@230yhtom?oat_content=url&ts=09291141" target="_blank"
+                        rel="noopener noreferrer"><img src="imgs/svg/line.svg" alt=""></a>
+                </div>
+                <div class="inst-link">
+                    <a href="https://www.instagram.com/origami.soft/" target="_blank" rel="noopener noreferrer"><img
+                            src="imgs/svg/instagram_fill.svg" alt=""></a>
+                </div>
+            </div>
+
+
+
+            <a class="top-return-btn" href="index.html#hero-top">
+                <p>TOPへ</p>
+                <img class="default" src="72ppi/milk_clown_side.png" alt="">
+                <img class="hover" src="72ppi/milk_clown_top.png" alt="">
+            </a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="news-detail-page">
+            <img id="news-detail-thumbnail" src="" alt="">
+            <p id="news-detail-date"></p>
+            <h2 id="news-detail-title"></h2>
+            <div id="news-detail-body"></div>
+            <a class="news-back" href="news.html">← 一覧へ戻る</a>
+        </section>
+
+
+    </main>
+
+    <footer id="news-a-footer">
+        <div class="footer__cont-parent">
+
+            <div class="footer__cont-wrap">
+
+                <div class="f-cont__address">
+
+                    <div class="address__logo-wrap">
+                        <img src="imgs/svg/full_logo_color.svg" alt="">
+                    </div>
+
+                    <div class="address__txt-wrap">
+                        <h2>ORIGAMI soft</h2>
+                        <p>〒060-0062</p>
+                        <p>北海道札幌市中央区南２条西５丁目６ 札幌プラザ2・5ビル 1F 狸小路横丁</p>
+                    </div>
+
+                </div>
+
+                <div class="footer__map-wrap">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2061.39058011597!2d141.34900339318588!3d43.05728260259744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b297e36b0b535%3A0x76cda0685844a711!2z44Kq44Oq44Ks44Of44K944OV44OI!5e0!3m2!1sja!2sjp!4v1788836231392!5m2!1sja!2sjp"
+                        width="1400" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    <p>「マップで開く」から詳しい地図へ</p>
+                </div>
+                <h2 class="store-info-h2">店舗情報</h2>
+                <dl class="footer__access">
+                    <dt>営業時間</dt>
+                    <dd>12:00～21:00</dd>
+                    <dt>定休日</dt>
+                    <dd>月曜日</dd>
+                    <dt>電話番号</dt>
+                    <dd>011-12345678</dd>
+                </dl>
+            </div>
+
+
+            <div class="footer__cont-wrap02">
+                <div class="wrap02__text-wrap">
+
+                    <h2 class="wrap02-top-h2">各種リンク・お問い合わせ</h2>
+
+                    <div class="nav-sns-wrap">
+                        <nav class="wrap02__nav" aria-label="フッターナビゲーション">
+                            <h2>メニュー</h2>
+                            <ul class="wrap02__nav-list">
+                                <li><a href="#hero-top">トップ</a></li>
+                                <li><a href="#concept-top">コンセプト</a></li>
+                                <li><a href="#gallery-top">ギャラリー</a></li>
+                                <li><a href="#access-top">お知らせ</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="wrap02__sns">
+                            <h2>SNS</h2>
+                            <ul class="wrap02__sns-list">
+                                <li><a href="https://line.me/R/ti/p/@230yhtom?oat_content=url&ts=09291141"
+                                        target="_blank" rel="noopener noreferrer">LINE</a></li>
+                                <li><a href="https://www.instagram.com/origami.soft/" target="_blank"
+                                        rel="noopener noreferrer">Instagram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="wrap02__access">
+                        <h2>アクセス</h2>
+                        <p>地下鉄「大通駅」「すすきの駅」より徒歩5分程度、数店舗の飲食店が集まる「狸小路横丁」の入り口右手です。</p>
+                    </div>
+
+                    <div class="wrap02__contact">
+                        <!-- href は、お問い合わせフォームのページ / mailto: / LINEのURL など、使う手段に合わせて変える -->
+                        <a class="wrap02__contact-btn" href="#">お問い合わせ</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="wrap02__f-ticker">
+                    <img src="imgs/svg/footer_ticker.svg" alt="">
+                    <img src="imgs/svg/footer_ticker.svg" alt="">
+                </div> -->
+        </div>
+
+        </div>
+
+
+        <div class="footer__copyright-wrap">
+            <p><small>&copy;2026 Origami soft all rights reserved.</small></p>
+        </div>
+
+    </footer>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/news.js"></script>
+    <script>
+        renderNewsDetail();
+    </script>
+</body>
+
+</html>
